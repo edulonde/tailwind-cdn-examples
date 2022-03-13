@@ -8,13 +8,39 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind</title>
 </head>
-<body class ="bg-black">
-<main>
-    <h1 class = "text-center text-6xl text-lime-600 ">
-        Hello Tailwind!
-    </h1>
-    <p class="text-emerald-900">Olá! </p>
+<body class="bg-gradient-to-r from-rose-100 to-teal-100">
+<main class=" m-10">
+    <div class="container max-w-screen-lg m-auto">
 
+        <h1 class="text-center text-6xl text-transparent bg-clip-text bg-gradient-to-r
+    from-blue-500 to-blue-600 text-extrabold ">
+            Hello, Tailwind CSS!
+        </h1>
+        <p class="text-blue-800 text-relaxed text-center mt-10">
+            O Tailwindcss é um framework para CSS que oferece
+            algumas utilidades para estilizar páginas HTML sem precisar editar arquivos CSS. Todos os exemplos
+            abaixo foram feitos somente com que o tailwind cdn pode proporcinoar. Para usar o tailwind cdn
+            não é preciso instalar nada. </p>
+        <div class="flex justify-around mt-10 flex-wrap content-center">
+            <div class="w-40 h-40 border-2 border-purple-900 m-5 rounded-2xl flex justify-center flex-col items-center	  ">
+                <img class = "w-full h-20 rounded-2xl flex-grow" src="/imgs/cards.png" alt="">
+                <span class="block">Cards</span>
+            </div>
+            <div class="w-40 h-40 border-2 border-purple-900 m-5 rounded-2xl flex justify-center 	 ">
+                <span>Tables</span>
+            </div>
+            <div class="w-40 h-40 border-2 border-purple-900 m-5 rounded-2xl flex justify-center 	">
+                <span>Lists</span>
+            </div>
+            <div class="w-40 h-40 border-2 border-purple-900 m-5 rounded-2xl flex justify-center 	">
+                <span>Forms</span>
+            </div>
+            <div class="w-40 h-40 border-2 border-purple-900 m-5 rounded-2xl flex justify-center 	">
+                <span>Features</span>
+
+            </div>
+
+        </div>
 </main>
 
 </body>
