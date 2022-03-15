@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,18 +9,91 @@
     <title>Tailwind</title>
 </head>
 <body class="bg-gradient-to-r from-rose-100 to-teal-100">
+
 <main class=" m-10">
+
     <div class="container max-w-screen-lg m-auto">
 
         <h1 class="text-center text-6xl text-transparent bg-clip-text bg-gradient-to-r
-    from-blue-500 to-blue-600 text-extrabold ">
-            Cards com Tailwind CSS.
+    from-blue-500 to-blue-600 text-extrabold font-black ">
+            Cartões usando Tailwind:
         </h1>
-        <img src="cards.png" alt="cards">
-        <img src="forms.png" alt="forms">
-        <img src="https://images.unsplash.com/photo-1647043304470-9660b56029f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80"
-             alt="astronaut">
+        <a href="index.html"><p class=" text-xl text-blue-800 text-relaxed
+        hover:font-bold
+        text-center mt-10 font-semibold">Voltar</p></a>
+
+
+
+    <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+        <!--Card 1-->
+        <div class="rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="/lemonade.jpg" alt="Mountain">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Provérbio</div>
+                <p class="text-gray-600 text-base font-semibold">
+                    Se a vida te der um limão, </br>
+                    Faça uma limonada!
+                </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#adagio</span>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#sabedoria</span>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#ditados</span>
+            </div>
+        </div>
+        <!--Card 2-->
+        <div class="rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="/butterfly.png" alt="River">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Hai-Kai de Outono</div>
+                <p class="text-gray-600 text-base font-semibold">
+                    Uma borboleta amarela? </br>
+                    Ou uma folha seca </br>
+                    Que se desprendeu e não quis pousar? </br>
+                </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#marioquintana</span>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#haikai</span>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#outono</span>
+            </div>
+        </div>
+
+        <!--Card 3-->
+        <div class="rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="/mountain.jpg" alt="Forest">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">Canção Noturna do Peregrino</div>
+                <p class="text-gray-600 text-base font-semibold">
+                    Por todos estes montes </br>
+                    Reina paz,</br>
+                    Em todas estas frondes</br>
+                    A custo sentirás</br>
+                    Sequer a brisa leve;</br>
+                    Em todo o bosque não ouves nem uma ave.</br>
+                    Ora espera, suave</br>
+                    Paz vais ter em breve.</br>
+                </p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#goethe</span>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#romantismo</span>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#poesiaalema</span>
+            </div>
+        </div>
     </div>
-    <a href="index.html">Voltar</a>
+    </div>
+
 </main>
 </body>
+<div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-3 gap-5">
+    <!--Card 1-->
+    <div class=" w-full lg:max-w-full lg:flex">
+        <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+             style="background-image: url('/mountain.jpg')" title="Mountain">
+        </div>
+
+    </div>
+</div>
+</div>
+</html>
